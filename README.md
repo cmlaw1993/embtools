@@ -9,3 +9,7 @@ tc.sh: Tool for locating, selecting, and configuring system environment variable
 tc_refresh.sh: Refreshes the list of toolchains in the system for use in tc.sh
 
 Requirements: plocate (Ubuntu)
+
+## listlibs
+
+listlibs.sh: Lists the program interpreter and shared libraries for a binary
