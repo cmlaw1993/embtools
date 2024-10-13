@@ -21,3 +21,5 @@ emb_listlibs.sh: Lists the program interpreter and shared libraries for a binary
 ## alias
 
 git_tree: Prints the git graph for current branch
+
+git_tree_all: Prints the git graph for all branches

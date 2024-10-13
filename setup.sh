@@ -30,6 +30,10 @@ custom_lines=(
   "  git log --oneline --graph --decorate"
   "}"
   ""
+  "function git_tree_all() {"
+  "  git log --oneline --graph --decorate --all"
+  "}"
+  ""
 )
 
 START="# == embtools begin == #"
