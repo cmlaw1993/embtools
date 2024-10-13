@@ -26,6 +26,10 @@ custom_lines=(
   "  $(pwd)/scripts/emb_listlibs.sh \$@"
   "}"
   ""
+  "function git_tree() {"
+  "  git log --oneline --graph --decorate"
+  "}"
+  ""
 )
 
 START="# == embtools begin == #"

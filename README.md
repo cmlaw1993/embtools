@@ -17,3 +17,7 @@ tc_printenv.sh: Prints environment variables and aliases set by tc.sh
 ## emb
 
 emb_listlibs.sh: Lists the program interpreter and shared libraries for a binary
+
+## alias
+
+git_tree: Prints the git graph for current branch
