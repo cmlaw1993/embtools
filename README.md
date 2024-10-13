@@ -12,6 +12,8 @@ tc.sh: Tool for locating, selecting, and configuring system environment variable
 
 tc_refresh.sh: Refreshes the list of toolchains in the system for use in tc.sh
 
+tc_printenv.sh: Prints environment variables and aliases set by tc.sh 
+
 ## emb_listlibs
 
 emb_listlibs.sh: Lists the program interpreter and shared libraries for a binary
