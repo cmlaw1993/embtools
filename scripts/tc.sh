@@ -104,3 +104,7 @@ for cmd in "${commands[@]}"; do
   alias_string="$bin_path/$host-$cmd"
   alias "$cmd"="$alias_string" && echo "alias $cmd=$alias_string"
 done
+
+# Modify shell prompt
+
+PS1="[$CROSS_COMPILE]:"
