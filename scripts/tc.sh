@@ -107,4 +107,4 @@ done
 
 # Modify shell prompt
 
-PS1="[$CROSS_COMPILE]:"
+PS1="\[\e[1;94m\][$CROSS_COMPILE]:\[\e[0m\]"
